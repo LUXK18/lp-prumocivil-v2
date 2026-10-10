@@ -1,0 +1,13 @@
+/* Ajustes do seu produto podem ser acrescentados aqui.
+   Os estilos originais estão preservados em assets/.
+   As seções do HTML têm identificadores data-section. */
+/* Preserve reference layout while fitting the confirmed offer. */
+[data-section="recapitulacao"] * {text-decoration:none!important;}
+[data-section="recapitulacao"] .prumo-recap-row {flex-wrap:nowrap!important;gap:12px!important;align-items:center!important;}
+[data-section="recapitulacao"] .prumo-inclusion {width:auto!important;flex:0 0 auto!important;}
+[data-section="recapitulacao"] .prumo-inclusion h2 {font-size:14px!important;white-space:nowrap;color:#526366!important;}
+[data-section="recapitulacao"] .prumo-recap-row > :not(.prumo-inclusion) {min-width:0;flex:1;}
+
+/* Logo oficial fornecida pelo cliente. */
+img.prumo-logo-oficial {height:auto;object-fit:contain;}
+[data-section="rodape"] img.prumo-logo-oficial {background:#fff;padding:12px;border-radius:4px;}
